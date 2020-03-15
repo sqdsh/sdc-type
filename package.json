@@ -1,0 +1,32 @@
+{
+    "name": "sdc-type",
+    "version": "1.0.0",
+    "description": "Враппер для SD.C API на TypeScript",
+    "main": "index.ts",
+    "license": "MIT",
+    "author": {
+        "name": "SD.C Community",
+        "url": "https://server-discord.com/"
+    },
+    "keywords": [
+        "sdc",
+        "discord",
+        "api",
+        "server-discord",
+        "sdc-api",
+        "sdc-type",
+        "sdc-typescript",
+        "sdc-ts"
+    ],
+    "files": [
+        "interfaces.ts"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/vladciphersky/sdc-type.git"
+    },
+    "dependencies": {
+        "@types/node": "^13.9.1",
+        "axios": "^0.19.2"
+    }
+}
