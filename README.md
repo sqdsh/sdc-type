@@ -3,7 +3,7 @@
 
 ## Установка
 ```sh
-$ npm install github:vladciphersky/sdc-type
+$ npm install github:sqdshcom/sdc-type
 ```
 
 ## Инициализация враппера
