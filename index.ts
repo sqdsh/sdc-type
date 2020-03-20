@@ -37,35 +37,35 @@ export class SDC {
         this.apiKey = token;
     }
 
-    guild(id) {
+    guild(id: string) {
         return new Promise((resolve, reject) =>
             request( options(this.apiKey, `/guild/${id}`) )
                 .then(resolve, reject)
         );
     }
 
-    guildPlace(id) {
+    guildPlace(id: string) {
         return new Promise((resolve, reject) =>
             request( options(this.apiKey, `/guild/${id}/place`) )
                 .then(resolve, reject)
         );
     }
 
-    guildRated(id) {
+    guildRated(id: string) {
         return new Promise((resolve, reject) =>
             request( options(this.apiKey, `/guild/${id}/rated`) )
                 .then(resolve, reject)
         );
     }
 
-    userRated(id) {
+    userRated(id: string) {
         return new Promise((resolve, reject) =>
             request( options(this.apiKey, `/user/${id}/rated`) )
                 .then(resolve, reject)
         );
     }
 
-    warns(id) {
+    warns(id: string) {
         return new Promise((resolve, reject) =>
             request( options(this.apiKey, `/warns/${id}`) )
                 .then(resolve, reject)
@@ -73,7 +73,7 @@ export class SDC {
     }
 
     /**
-     * Attention! Данная функция не имеет проверки на совместимость с определённой библиотекой.
+     * Attention! Данная функция не может сама проверять сервера вашего бота. Вам нужно самим указать количество шардов и серверов.
      * Если вы хотите помочь, ждём Pull Request.
      * */
     setAutoPost(id: string, stats: object = { servers: 0, shards: 1 }, interval: number = 900000) {
