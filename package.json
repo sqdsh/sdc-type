@@ -1,12 +1,12 @@
 {
     "name": "sdc-type",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Враппер для SD.C API на TypeScript",
     "main": "index.ts",
     "license": "MIT",
     "author": {
-        "name": "SD.C Community",
-        "url": "https://server-discord.com/"
+        "name": "Sqdsh.Community",
+        "url": "https://github.com/sqdshcom"
     },
     "keywords": [
         "sdc",
@@ -23,7 +23,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/vladciphersky/sdc-type.git"
+        "url": "https://github.com/sqdshcom/sdc-type.git"
     },
     "dependencies": {
         "@types/node": "^13.9.1",
