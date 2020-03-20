@@ -1,6 +1,6 @@
 {
     "name": "sdc-type",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Враппер для SD.C API на TypeScript",
     "main": "index.ts",
     "license": "MIT",
