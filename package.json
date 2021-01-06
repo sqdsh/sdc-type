@@ -1,6 +1,6 @@
 {
     "name": "sdc-type",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Враппер для SD.C API на TypeScript",
     "main": "index.ts",
     "license": "MIT",
@@ -27,6 +27,6 @@
     },
     "dependencies": {
         "@types/node": "^13.9.1",
-        "axios": "^0.19.2"
+        "axios": "^0.21.1"
     }
 }
